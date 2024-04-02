@@ -1,0 +1,22 @@
+Para clientes normais:
+
+Como cliente normal, quero receber notificações ou alertas quando meu tempo de estacionamento estiver prestes a expirar.
+Como cliente normal, quero poder visualizar o histórico de minhas visitas e pagamentos anteriores.
+Como cliente normal, quero poder fazer reservas antecipadas de vagas de estacionamento através do software, especialmente em períodos de grande movimento.
+
+Para clientes mensalistas:
+
+Como cliente mensalista, quero ter uma vaga garantida sempre que visitar o estacionamento, sem precisar me preocupar com a disponibilidade.
+Como cliente mensalista, quero poder gerenciar minha assinatura mensal, incluindo pagamentos, atualizações de informações pessoais e cancelamentos, se necessário.
+Como cliente mensalista, quero receber alertas sobre mudanças nas políticas do estacionamento ou na minha assinatura mensal.
+
+Para funcionário:
+
+Como funcionário, quero poder adicionar novos clientes ao sistema, registrando suas informações pessoais, tipo de cliente (normal ou com mensalidade) e preferências de vaga.
+Como funcionário, quero poder gerenciar as vagas disponíveis no estacionamento, atribuindo vagas específicas aos clientes com mensalidade e liberando vagas conforme for necessário para clientes normais.
+Como funcionário, quero ser capaz de editar as informações dos clientes no sistema.
+
+Para gerente:
+
+Como gerente, quero poder ajustar as tarifas de estacionamento e políticas do estacionamento.
+Como gerente, quero poder acessar relatórios detalhados sobre o desempenho do estacionamento, incluindo receita diária, taxa de ocupação e tendências de tráfego ao longo do tempo.
