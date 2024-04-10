@@ -1,0 +1,75 @@
+01 - Notificações e Alertas
+
+Como cliente normal, quero receber notificações ou alertas quando meu tempo de estacionamento estiver prestes a expirar, para que não ultrapasse  o tempo limite.
+
+Aceites:
+O cliente tem que ser notificado no maximo 10 minutos antes do seu tempo expirar.
+O cliente tem que informar seu e-mail ou seu número, escolhendo em qual deles quer ser notificado.
+O cliente tem que ser notificado sobre qual vaga o seu carro esta localizado.
+
+02 - Histórico de Visitas
+
+Como cliente normal, quero poder visualizar o histórico de minhas visitas e pagamentos anteriores, para verificar se for necessário. 
+
+Aceites:
+Tem que existir um banco de dados com informações separadas para cada cliente com suas visitas e pagamentos.
+É necessário uma página destinada ao histórico do respectivo cliente.
+
+03 - Reservas antecipadas
+
+Como cliente normal, quero poder fazer reservas antecipadas de vagas de estacionamento através do software, especialmente em períodos de grande movimento.
+
+Aceites: 
+O software tem que ter uma área destinada para a reserva de vagas.
+Os reservistas devem ter suas vagas garantidas independentemente da lotação do local.
+Em períodos de grande movimento os clientes frequentes devem ser avisados sobre a possibilidade de reservar sua vaga, levando em conta o grande movimento e risco de ficar sem vagas
+
+04 - Vagas garantidas de mensalistas
+
+Como cliente mensalista, quero ter uma vaga garantida sempre que visitar o estacionamento, sem precisar me preocupar com a disponibilidade.
+
+Aceites:
+Tem que existir um plano mensal para que os mensalistas possam assiná-los.
+A vaga do mensalista não pode ser ocupada, independente da situação.
+O mensalista vai ter um token que irá liberar o acesso a sua respectiva vaga.
+
+05 - Gerenciamento da mensalidade
+
+Como cliente mensalista, quero poder gerenciar minha assinatura mensal, incluindo pagamentos, atualizações de informações pessoais e cancelamentos, se necessário.
+
+Aceites:
+Para os mensalistas, eles devem ter uma opção dentro do software destinada ao gerenciamento da sua mensalidade.
+O mensalista, se quiser cancelar sua assinatura, não será cobrado taxa extra, porém o valor não será ressarcido.
+O mensalista, se cancelar sua assinatura, durante o mês, ainda poderá utilizar a sua vaga até o último dia do mês do cancelamento.
+
+06- Mudanças de mensalidade
+
+Como cliente mensalista, quero receber alertas sobre mudanças nas políticas do estacionamento ou na minha assinatura mensal.
+
+Aceites:
+O mensalista deve receber notificações sobre mudanças/confirmações do pagamento via e-mail/telefone.
+O mensalista receberá notificações de possíveis alterações nos estacionamentos, tais quais, endereço e horário.
+
+07- Cadastro de clientes
+
+Como funcionário, quero poder adicionar novos clientes ao sistema, registrando suas informações pessoais, tipo de cliente (normal ou com mensalidade) e preferências de vaga.
+Aceites: 
+Para funcionar necessita de um banco de dados para armazenar as informções do sistema.
+Funcionario tem que ter acesso a uma parte especifica do sistema para poder gerenciar informações dos clientes.
+O sistema deverá informar se o cliente é mensalista ou não, caso for mensalista ,deverá conter seu respectivo token.
+
+08- Gerenciamento de vagas
+
+Como funcionário, quero poder gerenciar as vagas disponíveis no estacionamento, atribuindo vagas específicas aos clientes com mensalidade e liberando vagas conforme for necessário para clientes normais.
+Aceites:
+
+O sistema deverá conter um mapa de vagas sinalizando se está reservada , vazia ou em uso.
+O funcionário deverá ter permissão para alterar o status das vagas.
+Após o liberamento ou ocupação da vaga seu status será liberado.
+
+09- Editor de informações dos clientes
+Como funcionário, quero ser capaz de editar as informações dos clientes no sistema.
+Aceites:
+As informações dos clientes deve estar devidamente representadas.
+O funcionário deve ter permição para editar as informações.
+
