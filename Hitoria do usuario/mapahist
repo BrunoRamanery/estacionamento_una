@@ -53,6 +53,7 @@ O mensalista receberá notificações de possíveis alterações nos estacioname
 07- Cadastro de clientes
 
 Como funcionário, quero poder adicionar novos clientes ao sistema, registrando suas informações pessoais, tipo de cliente (normal ou com mensalidade) e preferências de vaga.
+
 Aceites: 
 Para funcionar necessita de um banco de dados para armazenar as informções do sistema.
 Funcionario tem que ter acesso a uma parte especifica do sistema para poder gerenciar informações dos clientes.
@@ -61,15 +62,33 @@ O sistema deverá informar se o cliente é mensalista ou não, caso for mensalis
 08- Gerenciamento de vagas
 
 Como funcionário, quero poder gerenciar as vagas disponíveis no estacionamento, atribuindo vagas específicas aos clientes com mensalidade e liberando vagas conforme for necessário para clientes normais.
-Aceites:
 
+Aceites:
 O sistema deverá conter um mapa de vagas sinalizando se está reservada , vazia ou em uso.
 O funcionário deverá ter permissão para alterar o status das vagas.
 Após o liberamento ou ocupação da vaga seu status será liberado.
 
 09- Editor de informações dos clientes
+
 Como funcionário, quero ser capaz de editar as informações dos clientes no sistema.
+
 Aceites:
 As informações dos clientes deve estar devidamente representadas.
-O funcionário deve ter permição para editar as informações.
+O funcionário deve ter permissão para editar as informações.
 
+10- Ajustes de tarifas e politicas do estacionamento
+
+Como gerente, quero poder ajustar as tarifas de estacionamento e políticas do estacionamento.
+
+Aceites:
+O gerente devera ter permissao a uma pagina exclusiva destinada aos ajustes nas tarifas e politicas do estacionamento.
+Assim que qualquer mudanca for realizada, os clientes devem ser notificados.
+A alteracao na tarifa deve ser notificada para os funcionarios.
+
+11 - Relatórios detalhados
+
+Como gerente, quero poder acessar relatórios detalhados sobre o desempenho do estacionamento.
+
+Aceites:
+Devem ser gerados relatorios sobre receita diária, taxa de ocupação e tendências de tráfego ao longo do tempo.
+O gerente devera ter acesso aos registros dos meses anteriores para que comparacoes e analises possam ser feitas.
