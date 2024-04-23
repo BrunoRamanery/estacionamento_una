@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cadastro_veiculo.css">
+    <title>Cadastro do veiculo</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastro de Carro</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Voltar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="tipo">Tipo de Veículo</label>
+                        <select id="tipo" name="tipo" required>
+                            <option value="carro">Carro</option>
+                            <option value="moto">Moto</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="placa">Placa</label>
+                        <input id="placa" type="text" name="placa" placeholder="Digite a placa" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="modelo">Modelo</label>
+                        <input id="modelo" type="text" name="modelo" placeholder="Digite o modelo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="ano">Ano</label>
+                        <input id="ano" type="number" name="ano" placeholder="Digite o ano" required>
+                    </div>
+                    <!-- Adicione mais campos específicos para carros, se necessário -->
+
+                </div>
+
+                <div class="continue-button">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
