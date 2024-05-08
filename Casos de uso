@@ -1,0 +1,25 @@
+Gerenciar Vagas de Estacionamento:
+- Adicionar nova vaga de estacionamento.
+- Remover vaga de estacionamento existente.
+- Atualizar informações da vaga de estacionamento (por exemplo, localização, tipo, disponibilidade).
+Gerenciar Funcionários:
+- Adicionar novo funcionário.
+- Remover funcionário existente.
+- Atualizar informações do funcionário (por exemplo, nome, cargo, horário de trabalho).
+Gerenciar Clientes:
+- Adicionar novo cliente.
+- Remover cliente existente.
+- Atualizar informações do cliente (por exemplo, nome, contato, informações do veículo).
+Gerenciar Mensalistas:
+- Adicionar novo mensalista.
+- Remover mensalista existente.
+- Atualizar informações do mensalista (por exemplo, nome, veículo associado, plano de pagamento).
+Editar Configurações de Políticas:
+- Definir políticas de estacionamento (por exemplo, tempo máximo de permanência, políticas de multa).
+- Ajustar configurações de segurança (por exemplo, requisitos de acesso, autorizações de funcionários).
+Editar Tarifas:
+- Definir tarifas de estacionamento por período de tempo (por exemplo, por hora, diária, mensal).
+- Atualizar tarifas conforme necessário (por exemplo, ajustes sazonais, mudanças de política).
+Realizar Transações de Estacionamento:
+- Registrar entrada e saída de veículos.
+- Calcular e cobrar taxas de estacionamento com base nas políticas e tarifas configur
