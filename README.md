@@ -1,4 +1,4 @@
-# Sistema de Estacionamento - Versão do Estudante
+# Soft Park - Trabalho UNA
 
 Este é um sistema simples para gerenciar um estacionamento, feito para aprender PHP e banco de dados. Ele faz o básico:
 
