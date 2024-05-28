@@ -1,0 +1,149 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e legível */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo neutra */
+    color: #333; /* Cor do texto escura */
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container Principal */
+.container {
+    max-width: 800px; /* Largura máxima do container */
+    margin: 20px auto; /* Centraliza o container */
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Formulários */
+form {
+    display: flex; /* Alinha os elementos do formulário em coluna */
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Cor verde para o botão */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Cor azul para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        max-width: 95%; /* Ocupa quase toda a largura em telas pequenas */
+    }
+}
+
+
+/* ... (seus estilos existentes) ... */
+
+#tabela-veiculos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow-x: auto; /* Adiciona barra de rolagem horizontal se necessário */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+#tabela-veiculos th, #tabela-veiculos td {
+    border: none; /* Remove as bordas padrão */
+    padding: 12px 15px; /* Aumenta o espaçamento interno */
+    text-align: left;
+    vertical-align: middle; /* Alinha o texto verticalmente ao meio */
+}
+
+#tabela-veiculos th {
+    background-color: #007bff; /* Cor de fundo azul para o cabeçalho */
+    color: white;
+    font-weight: bold;
+}
+
+#tabela-veiculos tr {
+    border-bottom: 1px solid #ddd; /* Linha divisória entre as linhas */
+}
+
+#tabela-veiculos tr:hover {
+    background-color: #f5f5f5; /* Efeito de hover sutil */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    #tabela-veiculos {
+        font-size: 14px; /* Diminui o tamanho da fonte em telas menores */
+    }
+}
+
+
+
+
+#vagas-carros, #vagas-motos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vaga {
+    width: 20px; 
+    height: 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.vaga-carro {
+    background-color: lightgreen;
+    background-image: url('https://cdn-icons-png.flaticon.com/256/846/846338.png'); 
+}
+
+.vaga-moto {
+    background-color: lightblue; 
+    background-image: url('https://cdn-icons-png.flaticon.com/256/3003/3003597.png');
+    
+}
+
+.ocupada {
+    background-color: lightcoral;
+    background-image: none; 
+}
