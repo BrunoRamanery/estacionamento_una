@@ -91,7 +91,7 @@ if (isset($_GET['edit'])) {
     }
 }
 
-// Obter mensalidades próximas do vencimento (próximos 7 dias) com data formatada
+// Obter mensalidades próximas do vencimento (próximos 7 dias)
 $sql = "SELECT m.*, v.placa, DATE_FORMAT(DATE_ADD(m.data_inicio, INTERVAL 1 MONTH), '%d-%m-%Y') AS proxima_cobranca
         FROM mensalistas m 
         INNER JOIN veiculos v ON m.veiculo_id = v.id 
