@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    // Insere um novo registro para o veículo (mesmo que já tenha entrado antes)
+  
     if (empty($errors)) {
         $sql = "INSERT INTO veiculos (placa, tipo, data_entrada) VALUES (?, ?, NOW())";
         $stmt = $conn->prepare($sql);
